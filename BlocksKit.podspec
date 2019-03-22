@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.version               = '2.2.6'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
-  s.homepage              = 'https://zwaldowski.github.io/BlocksKit'
-  s.author                = { 'Zachary Waldowski' => 'zach@waldowski.me',
-                              'Alexsander Akers'  => 'a2@pnd.mn' }
-  s.source                = { :git => 'https://github.com/zwaldowski/BlocksKit.git', :tag => "v#{s.version}" }
+  s.homepage              = 'https://github.com/Liangxue/BlocksKit'
+  s.author = { 'XueLiang' => '15145078036@163.com' }
+
+  s.source                = { :git => 'https://github.com/Liangxue/BlocksKit.git', :tag => "v#{s.version}" }
   s.requires_arc          = true
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '6.0'
