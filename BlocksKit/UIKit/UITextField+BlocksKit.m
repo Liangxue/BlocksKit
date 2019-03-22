@@ -95,7 +95,7 @@
         
         //添加代码
         if (realDelegate && [realDelegate isKindOfClass:NSClassFromString(@"UIEditUserWordController")]) {
-            return;
+            return ret;
         }
         //end
         
@@ -133,7 +133,7 @@
         
         //添加代码
         if (realDelegate && [realDelegate isKindOfClass:NSClassFromString(@"UIEditUserWordController")]) {
-            return;
+            return ret;
         }
         //end
         
@@ -165,9 +165,5 @@
                                     @"bk_shouldReturnBlock" : @"textFieldShouldReturn:",
                                     }];
 }
-    ---------------------
-    作者：Sico2Sico
-    来源：CSDN
-    原文：https://blog.csdn.net/Sico2Sico/article/details/54969950
-    版权声明：本文为博主原创文章，转载请附上博文链接！
+
 @end
